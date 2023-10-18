@@ -1,0 +1,25 @@
+.moviecard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 40px 20px;
+}
+
+.image {
+  width: 190px;
+  border-radius: 10px;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  height: 230px;
+  margin: 10px 0;
+  text-overflow: ellipsis;
+}
+
+.name {
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  color: #303841;
+  font-weight: 600;
+}
